@@ -68,9 +68,9 @@ function Tabs({ modules }) {
                                         setActiveScope(scopeIndex);
                                         dispatch(setSelectedScopeArea(scope['Scope Area']));
                                     }}
-                                    className={`py-2 px-3 text-sm font-medium rounded-lg border ${
-                                        activeScope === scopeIndex ? 'bg-blue-600 text-white' : 'border-gray-200'
-                                    } focus:outline-none`}
+                                    className={`py-2 px-8 text-sm font-medium rounded-2xl  border ${
+                                        activeScope === scopeIndex ? 'bg-blue-500 text-white' : 'border-gray-200 bg-blue-200'
+                                    } ${hasScopeAccess(scope['Scope Area']) ? '' : 'cursor-not-allowed bg-gray-200'} focus:outline-none`}
                                     disabled={!hasScopeAccess(scope['Scope Area'])}
                                 >
                                     {scope['Scope Area']}
@@ -79,7 +79,7 @@ function Tabs({ modules }) {
                         </div>
 
                         <div className="mt-4">
-                            <div className="flex gap-2 flex-wrap mt-2">
+                            <div className="flex gap-2  flex-wrap mt-2 ">
                                 {module['Scope Areas'][activeScope].PRIs.map((pri, priIndex) => (
                                     <button
                                         key={priIndex}
@@ -87,9 +87,9 @@ function Tabs({ modules }) {
                                         onClick={() => {
                                             dispatch(setSelectedPRI(pri));
                                         }}
-                                        className={`py-2 px-3 text-sm font-medium rounded-lg border ${
-                                            pri === selectedPRI ? 'bg-blue-600 text-white' : 'border-gray-200'
-                                        } focus:outline-none`}
+                                        className={`py-2 px-8 text-sm font-medium rounded-2xl border ${
+                                            pri === selectedPRI ? 'bg-blue-500 text-white' : 'border-gray-200 bg-blue-200'
+                                        } ${hasPriAccess(module['Scope Areas'][activeScope]['Scope Area'], pri) ? '' : 'cursor-not-allowed bg-gray-200'} focus:outline-none`}
                                         disabled={!hasPriAccess(module['Scope Areas'][activeScope]['Scope Area'], pri)}
                                     >
                                         {pri}

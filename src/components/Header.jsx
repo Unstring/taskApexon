@@ -109,7 +109,7 @@ const Header = () => {
                                             strokeWidth={1.5}
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
-                                            className="lucide lucide-circle-user-round w-8 h-auto"
+                                            className="lucide lucide-circle-user-round w-8 h-auto text-blue-500"
                                         >
                                             <path d="M18 20a6 6 0 0 0-12 0" />
                                             <circle cx={12} cy={10} r={4} />
@@ -169,7 +169,7 @@ const Header = () => {
                         >
                             <span className="sr-only">Toggle Navigation</span>
                             <svg
-                                className="shrink-0 size-4"
+                                className="shrink-0 size-4 text-blue-500"
                                 xmlns="http://www.w3.org/2000/svg"
                                 width={24}
                                 height={24}

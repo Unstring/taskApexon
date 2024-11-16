@@ -77,8 +77,8 @@ const LeftSidebar = () => {
                         >
                             <ul className="flex flex-col space-y-4">
                                 <li>
-                                    <a
-                                        className="flex items-center gap-x-3.5 py-2 px-2.5 bg-gray-100 text-sm text-gray-800 rounded-lg hover:bg-gray-100 focus:outline-none focus:bg-gray-100 dark:bg-neutral-700 dark:text-white"
+                                <a
+                                        className="w-full flex items-center gap-x-3.5 py-2 px-2.5 text-sm text-gray-800 rounded-lg hover:bg-gray-100 dark:hover:bg-neutral-700 dark:text-neutral-200 dark:hover:text-neutral-300"
                                         href="#"
                                     >
                                         <svg
@@ -91,7 +91,7 @@ const LeftSidebar = () => {
                                             strokeWidth={2}
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
-                                            className="lucide lucide-list"
+                                            className="lucide lucide-list text-blue-500"
                                         >
                                             <path d="M3 12h.01" />
                                             <path d="M3 18h.01" />
@@ -122,7 +122,7 @@ const LeftSidebar = () => {
                                             strokeWidth={2}
                                             strokeLinecap="round"
                                             strokeLinejoin="round"
-                                            className="lucide lucide-layout-grid lucide-icon"
+                                            className="lucide lucide-layout-grid lucide-icon text-gray-400"
                                         >
                                             <rect width={7} height={7} x={3} y={3} rx={1} />
                                             <rect width={7} height={7} x={14} y={3} rx={1} />
