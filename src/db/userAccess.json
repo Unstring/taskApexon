@@ -1,0 +1,65 @@
+[
+    {
+        "User": "Person_1",
+        "Access": [
+            {
+                "Scope Area": "SA_1",
+                "PRIs": [
+                    {"PRI Name": "PRI_1", "Transactions Assigned": 4},
+                    {"PRI Name": "PRI_3", "Transactions Assigned": 5}
+                ]
+            },
+            {
+                "Scope Area": "SA_2",
+                "PRIs": [
+                    {"PRI Name": "PRI_10", "Transactions Assigned": 2}
+                ]
+            },
+            {
+                "Scope Area": "SA_3",
+                "PRIs": [
+                    {"PRI Name": "PRI_14", "Transactions Assigned": 0}
+                ]
+            }
+        ]
+    },
+    {
+        "User": "Person_2",
+        "Access": [
+            {
+                "Scope Area": "SA_3",
+                "PRIs": [
+                    {"PRI Name": "PRI_12", "Transactions Assigned": 4},
+                    {"PRI Name": "PRI_13", "Transactions Assigned": 9},
+                    {"PRI Name": "PRI_14", "Transactions Assigned": 0},
+                    {"PRI Name": "PRI_15", "Transactions Assigned": 10}
+                ]
+            }
+        ]
+    },
+    {
+        "User": "Person_3",
+        "Access": [
+            {
+                "Scope Area": "SA_1",
+                "PRIs": [
+                    {"PRI Name": "PRI_1", "Transactions Assigned": 0},
+                    {"PRI Name": "PRI_3", "Transactions Assigned": 0}
+                ]
+            },
+            {
+                "Scope Area": "SA_3",
+                "PRIs": [
+                    {"PRI Name": "PRI_12", "Transactions Assigned": 12},
+                    {"PRI Name": "PRI_13", "Transactions Assigned": 0}
+                ]
+            },
+            {
+                "Scope Area": "SA_2",
+                "PRIs": [
+                    {"PRI Name": "PRI_10", "Transactions Assigned": 7}
+                ]
+            }
+        ]
+    }
+]

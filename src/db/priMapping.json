@@ -1,0 +1,53 @@
+[
+    {
+        "Module": "Module 1",
+        "Scope Areas": [
+            {
+                "Scope Area": "SA_1",
+                "PRIs": ["PRI_1", "PRI_2", "PRI_3", "PRI_4", "PRI_5", "PRI_6", "PRI_7", "PRI_8"]
+            },
+            {
+                "Scope Area": "SA_2",
+                "PRIs": ["PRI_9", "PRI_10", "PRI_11"]
+            },
+            {
+                "Scope Area": "SA_3",
+                "PRIs": ["PRI_12", "PRI_13", "PRI_14", "PRI_15"]
+            }
+        ]
+    },
+    {
+        "Module": "Module 2",
+        "Scope Areas": [
+            {
+                "Scope Area": "SA_1",
+                "PRIs": ["PRI_1", "PRI_2", "PRI_3", "PRI_4", "PRI_5", "PRI_6", "PRI_7", "PRI_8"]
+            },
+            {
+                "Scope Area": "SA_2",
+                "PRIs": ["PRI_9", "PRI_10", "PRI_11"]
+            },
+            {
+                "Scope Area": "SA_3",
+                "PRIs": ["PRI_12", "PRI_13", "PRI_14", "PRI_15"]
+            }
+        ]
+    },
+    {
+        "Module": "Module 3",
+        "Scope Areas": [
+            {
+                "Scope Area": "SA_1",
+                "PRIs": ["PRI_1", "PRI_2", "PRI_3", "PRI_4", "PRI_5", "PRI_6", "PRI_7", "PRI_8"]
+            },
+            {
+                "Scope Area": "SA_2",
+                "PRIs": ["PRI_9", "PRI_10", "PRI_11"]
+            },
+            {
+                "Scope Area": "SA_3",
+                "PRIs": ["PRI_12", "PRI_13", "PRI_14", "PRI_15"]
+            }
+        ]
+    }
+]
