@@ -41,11 +41,11 @@ function Table() {
                             </thead>
                             {rowCount == 0 ? <>
                                 <tr>
-        <td colSpan="6" className="px-6  py-4 text-center text-gray-500">
-          No transactions to display.
-        </td>
-      </tr>
-                            </> :<tbody className="divide-y divide-gray-200 dark:divide-neutral-700">
+                                    <td colSpan="6" className="px-6  py-4 text-center text-gray-500">
+                                        No transactions to display.
+                                    </td>
+                                </tr>
+                            </> : <tbody className="divide-y divide-gray-200 dark:divide-neutral-700">
                                 {data.map((row, rowIndex) => (
                                     <tr key={rowIndex} className="hover:bg-gray-100 dark:hover:bg-neutral-700">
                                         {columns.map((column, colIndex) => (
