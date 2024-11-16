@@ -68,9 +68,9 @@ function Tabs({ modules }) {
                                         setActiveScope(scopeIndex);
                                         dispatch(setSelectedScopeArea(scope['Scope Area']));
                                     }}
-                                    className={`py-2 px-8 text-sm font-medium rounded-2xl  border ${
+                                    className={`py-1 px-8 text-sm text-gray-500 font-medium rounded-xl  border ${
                                         activeScope === scopeIndex ? 'bg-blue-500 text-white' : 'border-gray-200 bg-blue-200'
-                                    } ${hasScopeAccess(scope['Scope Area']) ? '' : 'cursor-not-allowed bg-gray-200'} focus:outline-none`}
+                                    } ${hasScopeAccess(scope['Scope Area']) ? '' : 'cursor-not-allowed !bg-gray-200 !text-gray-400'} focus:outline-none`}
                                     disabled={!hasScopeAccess(scope['Scope Area'])}
                                 >
                                     {scope['Scope Area']}
@@ -87,9 +87,9 @@ function Tabs({ modules }) {
                                         onClick={() => {
                                             dispatch(setSelectedPRI(pri));
                                         }}
-                                        className={`py-2 px-8 text-sm font-medium rounded-2xl border ${
+                                        className={`py-1 px-8 text-sm text-gray-500 font-medium rounded-xl border ${
                                             pri === selectedPRI ? 'bg-blue-500 text-white' : 'border-gray-200 bg-blue-200'
-                                        } ${hasPriAccess(module['Scope Areas'][activeScope]['Scope Area'], pri) ? '' : 'cursor-not-allowed bg-gray-200'} focus:outline-none`}
+                                        } ${hasPriAccess(module['Scope Areas'][activeScope]['Scope Area'], pri) ? '' : 'cursor-not-allowed !bg-gray-200 !text-gray-400'} focus:outline-none`}
                                         disabled={!hasPriAccess(module['Scope Areas'][activeScope]['Scope Area'], pri)}
                                     >
                                         {pri}
